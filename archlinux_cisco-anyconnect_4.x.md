@@ -77,6 +77,11 @@ sudo sed -i "/export/s/lib/lib:\/opt\/cisco\/lib_other/" /usr/bin/cisco-anyconne
 sudo systemctl stop vpnagentd.service
 sudo systemctl start vpnagentd.service
 ```
+* Local para configurar os arquivos profiles `.xml`:
+
+```
+/opt/cisco/anyconnect/profile/
+```
 
 Para usar, basta clicar no ícone do Cisco ou pela linha de comando, fazer:
 
